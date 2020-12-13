@@ -1,9 +1,9 @@
 package com.example;
 
 public class Customer {
-    private String LoyaltyCard;
+    private String loyaltyCard;
 
-    public Customer(String LoyaltyCard) {
-        this.LoyaltyCard = LoyaltyCard;
+    public Customer(String loyaltyCard) {
+        this.loyaltyCard = loyaltyCard;
     }
 }
