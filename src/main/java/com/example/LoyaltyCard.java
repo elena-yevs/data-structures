@@ -1,7 +1,7 @@
 package com.example;
-//import com.google.common.base.Preconditions;
+import com.google.common.base.Preconditions;
 
-import java.util.concurrent.ArrayBlockingQueue;
+
 
 public class LoyaltyCard {
     private final String id;
@@ -9,7 +9,7 @@ public class LoyaltyCard {
      public LoyaltyCard(String id);
 
     {
-        this.id = ArrayBlockingQueue.checkNotNull(id);
+        this.id = checkNotNull(id);
     }
 
     public String value() {
