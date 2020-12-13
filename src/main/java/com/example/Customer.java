@@ -1,7 +1,7 @@
 package com.example;
 
 /**
- * public class Customer with the field loyaltyCard and
+ * Public class Customer with the field loyaltyCard and
  * constructor
  *
  * @author Elena Yevsyukova
@@ -9,12 +9,12 @@ package com.example;
  */
 public final class Customer {
     /**
-     *the private field of type String
+     *The private field of type String
      */
     private String loyaltyCard;
 
     /**
-     * constructor takes loyaltyCard as a parameter
+     * Constructor takes loyaltyCard as a parameter
      * @param loyaltyCard String value
      */
     public Customer(String loyaltyCard) {
