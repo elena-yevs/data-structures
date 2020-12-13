@@ -1,6 +1,6 @@
 package com.example;
 
-public class Customer {
+public final class Customer {
     private String loyaltyCard;
 
     public Customer(String loyaltyCard) {
