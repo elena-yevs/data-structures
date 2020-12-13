@@ -14,7 +14,7 @@ public class Main {
      */
     public static void main(String[] args) {
         /**
-         * creating an object of the Customer class
+         * creating an object of the Customer class that takes a String
          */
         Customer customer = new Customer("545");
     }
