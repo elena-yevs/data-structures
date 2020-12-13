@@ -1,5 +1,5 @@
 package com.example;
-import com.google.common.base.Preconditions;
+import static com.google.common.base.Preconditions;
 
 
 /**
