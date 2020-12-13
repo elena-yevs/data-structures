@@ -1,5 +1,8 @@
 package com.example;
 
+/**
+ * 
+ */
 public final class Customer {
     private String loyaltyCard;
 
