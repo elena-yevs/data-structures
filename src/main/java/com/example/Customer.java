@@ -1,20 +1,17 @@
 package com.example;
 
 /**
- * public class Customer with the field loyaltyCard and
- * constructor
- *
- * @author Elena Yevsyukova
- * @version 2.1
+ * A customer is a person who visits a shop for buying goods.
+ * The customer can have a loyaltyCard that has a specific number.
  */
+
 public final class Customer {
-    /**
-     *the private field of type String
-     */
-    private String loyaltyCard;
+
+    private final String loyaltyCard;
 
     /**
-     * constructor takes loyaltyCard as a parameter
+     * Constructor for determination the customer's loyaltyCard number.
+     *
      * @param loyaltyCard String value
      */
     public Customer(String loyaltyCard) {
