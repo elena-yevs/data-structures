@@ -2,6 +2,9 @@ package com.example;
 
 /**
  * Main class that contains void main
+ *
+ * @author Elena Yevsyukova
+ * @version 1.1
  */
 public class Main {
     /**
