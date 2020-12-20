@@ -1,20 +1,19 @@
 package com.example;
 
 /**
- * Main class that contains void main
+ * This class contains the method that starts the execution of the program.
  *
- * @author Elena Yevsyukova
- * @version 1.1
+
  */
 public class Main {
     /**
-     * Here starts point of the program
+     * Start of program execution.
      *
      * @param args command line values
      */
     public static void main(String[] args) {
         /**
-         * Object of the Customer class that takes a String
+         * Customer with card number 545.
          */
         Customer customer = new Customer("545");
     }
