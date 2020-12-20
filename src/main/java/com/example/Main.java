@@ -2,8 +2,6 @@ package com.example;
 
 /**
  * This class contains the method that starts the execution of the program.
- *
-
  */
 public class Main {
     /**

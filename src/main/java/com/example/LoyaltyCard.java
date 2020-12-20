@@ -1,29 +1,28 @@
 package com.example;
+
 import static com.google.common.base.Preconditions;
 
 
 /**
- * Class implements Value Object
+ * Class implements Value Object.
  */
 public class LoyaltyCard {
     /**
-     * Customer's card id
+     * Customer's id.
      */
     private final String id;
 
     /**
-     *Constructor
-     * @param id is verified by checkNotNull
+     * Constructor for checking id with method checkNotNull.
+     *
+     * @param id is unique number
      */
-     public LoyaltyCard(String id);
+    public LoyaltyCard(String id);
 
     {
-        this.id = checkNotNull(id);
+        this.id = checkNotNull(id)
     }
 
-    /**
-     * Method returns customer's card id
-     */
     public String id() {
         return id;
     }
