@@ -1,21 +1,16 @@
 package com.example;
 
 /**
- * Main class that contains void main
- *
- * @author Elena Yevsyukova
- * @version 1.1
+ * This class contains the method that starts the execution of the program.
  */
 public class Main {
     /**
-     * Here starts point of the program
+     * Start of program execution.
      *
-     * @param args command line values
+     * @param args will be used when adding a customer to the queue.
      */
     public static void main(String[] args) {
-        /**
-         * Object of the Customer class that takes a String
-         */
+
         Customer customer = new Customer("545");
     }
 }
