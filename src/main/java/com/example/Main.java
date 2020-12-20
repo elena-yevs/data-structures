@@ -9,12 +9,10 @@ public class Main {
     /**
      * Start of program execution.
      *
-     * @param args command line values
+     * @param args will be used when adding a customer to the queue.
      */
     public static void main(String[] args) {
-        /**
-         * Customer with card number 545.
-         */
+
         Customer customer = new Customer("545");
     }
 }

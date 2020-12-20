@@ -4,14 +4,13 @@ package com.example;
  * Public class Customer with the field loyaltyCard and
  * constructor
  *
- * @author Elena Yevsyukova
- * @version 2.1
+
  */
 public final class Customer {
     /**
      *The private field of type String
      */
-    private String loyaltyCard;
+    private final String loyaltyCard;
 
     /**
      * Constructor takes loyaltyCard as a parameter
