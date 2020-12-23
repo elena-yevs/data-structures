@@ -10,7 +10,7 @@ public final class Customer {
     private final LoyaltyCard loyaltyCard;
 
     /**
-     * Constructor for determination the customer's loyalty сard number.
+     * Constructor for determination the number of customer's loyalty сard.
      *
      * @param loyaltyCard
      */
