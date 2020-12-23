@@ -7,14 +7,14 @@ package com.example;
  */
 public final class Customer {
 
-    private final String loyaltyCard;
+    private final LoyaltyCard loyaltyCard;
 
     /**
      * Constructor for determination the customer's loyalty card number.
      *
-     * @param loyaltyCard String value
+     * @param loyaltyCard
      */
-    public Customer(String loyaltyCard) {
+    public Customer(LoyaltyCard loyaltyCard) {
         this.loyaltyCard = loyaltyCard;
     }
 }
