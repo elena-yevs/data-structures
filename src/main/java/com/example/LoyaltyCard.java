@@ -1,29 +1,27 @@
 package com.example;
-
 import static com.google.common.base.Preconditions;
 
 
 /**
- * Class implements Value Object.
+ * Each customer has his own card that serves as an identifier.
  */
 public class LoyaltyCard {
     /**
-     * Customer's id.
+     * Customer's card id.
      */
-    private final String id;
+    private final String number;
 
     /**
-     * Constructor for checking id with method checkNotNull.
+     * Constructor creates a new card with the passed number.
      *
-     * @param id is unique number
+     * @param number is unique for each card.
      */
-    public LoyaltyCard(String id);
-
-    {
-        this.id = checkNotNull(id)
+    public LoyaltyCard(String number) {
+        this.number = checkNotNull(number);
     }
 
+
     public String id() {
-        return id;
+        return number;
     }
 }
