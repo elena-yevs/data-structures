@@ -14,14 +14,15 @@ public class LoyaltyCard {
     /**
      * Constructor creates a new card with the passed number.
      *
-     * @param number is unique for each card.
+     * @param number a card number that is unique, must be a sequence of a certain number of digital characters
      */
-    public LoyaltyCard(String number) {
+    public LoyaltyCard(CharSequence number) {
         this.number = checkNotNull(number);
+        this.number = number;
     }
-
 
     public String id() {
         return number;
     }
 }
+
