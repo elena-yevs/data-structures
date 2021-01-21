@@ -21,6 +21,11 @@ public class LoyaltyCard {
         this.number = number;
     }
 
+    /**
+     * Method to get the card id if the customer provides a card or its number.
+     *
+     * @return unique card number.
+     */
     public String id() {
         return number;
     }
