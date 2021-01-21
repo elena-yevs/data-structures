@@ -14,7 +14,7 @@ public class LoyaltyCard {
     /**
      * Constructor creates a new card with the passed number.
      *
-     * @param number a card number that is unique, must be a sequence of a certain number of digital characters
+     * @param number a unique card number, consisting of digital characters.
      */
     public LoyaltyCard(CharSequence number) {
         this.number = checkNotNull(number);
