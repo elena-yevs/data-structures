@@ -37,14 +37,8 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
-
-
-
-
 # Spine model compiler auto-generated resources
 /tools/gradle-plugins/model-compiler/src/main/resources/spine-protoc.gradle
-
-
 
 # Log files
 *.log
@@ -55,8 +49,6 @@ gradle-app.setting
 *.zip
 *.tar.gz
 *.rar
-
-
 
 #
 # The gradle.properties file should contain settings specific to a developer's workstation.
