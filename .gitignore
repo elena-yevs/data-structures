@@ -1,6 +1,7 @@
 # ignore the .gradle directory
-# /.gradle
+/.gradle
 
-# ignore all files in the .gradle/ directory
-.gradle/
+#no .bin and .lock files
+*.bin
+*.lock
 
