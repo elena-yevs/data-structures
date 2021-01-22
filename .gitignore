@@ -1,7 +1,15 @@
-# ignore the .gradle directory
+# Default ignored files.
+/shelf/
+/workspace.xml
+
+# ignore the .gradle directory.
 /.gradle
 
-#no .bin and .lock files
+#no .bin and .lock files.
 *.bin
 *.lock
+
+# IntelliJ IDEA modules and interim config files.
+*.iml
+.idea/*.xml
 
