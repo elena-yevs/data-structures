@@ -1,9 +1,10 @@
 package com.example;
+
 import static com.google.common.base.Preconditions;
 
 
 /**
- * Each customer has his own card that serves as an identifier.
+ * Each customer has his own card that serves as an additional identifier.
  */
 public class LoyaltyCard {
     /**
