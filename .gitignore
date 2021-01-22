@@ -1,6 +1,7 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+.gradle/*.gradle
 # IntelliJ IDEA modules and interim config files.
 *.iml
 .idea/*.xml
