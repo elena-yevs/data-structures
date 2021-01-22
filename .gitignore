@@ -1,3 +1,3 @@
-# ignore all files in the .gradle/ directory
-.gradle/
+# ignore the .gradle directory
+/.gradle
 
