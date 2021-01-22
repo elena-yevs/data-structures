@@ -14,6 +14,8 @@ public class LoyaltyCard {
     /**
      * Constructor creates a new card with the passed number.
      *
+     * <p>Checking the card number.
+     *
      * @param number a unique card number, consisting of digital characters.
      */
     public LoyaltyCard(CharSequence number) {
