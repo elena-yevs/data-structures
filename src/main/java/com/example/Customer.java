@@ -7,7 +7,7 @@ package com.example;
  */
 public final class Customer {
     /**
-     *The customer's loyalty card provides him with bonuses that can be used to pay for purchases.
+     * The customer's loyalty card provides him with bonuses that can be used to pay for purchases.
      *
      * <p>The customer's card number is unchanged.
      *
