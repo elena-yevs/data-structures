@@ -6,7 +6,7 @@ import static com.google.common.base.Preconditions;
 /**
  * Each customer has his own card that serves as an additional identifier.
  */
-public class LoyaltyCard {
+public final class LoyaltyCard {
     /**
      * Customer's card id.
      */
