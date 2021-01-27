@@ -7,11 +7,7 @@ package com.example;
  */
 public final class Customer {
     /**
-     * The customer's loyalty card provides him with bonuses that can be used to pay for purchases.
-     *
-     * <p>The customer's card number is unchanged.
-     *
-     * <p>The card number must be entered to receive the bonuses.
+     * In order to use previously collected bonuses, the customer uses the card during a purchase.
      *
      * <p>The absence of a card does not prevent the customer from purchasing the goods.
      */
@@ -19,6 +15,10 @@ public final class Customer {
 
     /**
      * Loyalty card is assigned to a specific customer.
+     *
+     * <p>The card provides customer with bonuses that can be used to pay for purchases.
+     *
+     * <p>The customer's card number is unchanged.
      *
      * @param card is an additional customer identifier.
      */
