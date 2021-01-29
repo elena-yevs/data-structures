@@ -17,7 +17,7 @@ public final class LoyaltyCard {
      *
      * <p>Checking the card number.
      *
-     * @param number a unique card number, consisting of digital characters.
+     * @param number a unique card number, consisting of digital characters
      */
     public LoyaltyCard(CharSequence number) {
         this.number = checkNotNull(number);
@@ -27,7 +27,7 @@ public final class LoyaltyCard {
     /**
      * Method to get the card id if the customer provides a card or its number.
      *
-     * @return unique card number.
+     * @return unique card number
      */
     public String id() {
         return number;
