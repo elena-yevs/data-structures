@@ -22,7 +22,7 @@ public final class Customer {
      *
      * <p>The card number must be checked.
      *
-     * @param card is an additional customer identifier.
+     * @param card is an additional customer identifier
      */
     public Customer(LoyaltyCard card) {
         this.card = checkNotNull(card);
