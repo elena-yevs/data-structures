@@ -25,11 +25,11 @@ public final class LoyaltyCard {
     }
 
     /**
-     * Method to get the card id if the customer provides a card or its number.
+     * Getting the card number.
      *
      * @return unique card number
      */
-    public String id() {
+    public String number() {
         return number;
     }
 }

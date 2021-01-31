@@ -22,7 +22,9 @@ public final class Customer {
      *
      * <p>The customer's card number is unchanged.
      *
-     * <p>The card number must be checked.
+     * <p>The card number is scanned by the cashier.
+     *
+     * <p>The customer can scan the card number himself at the self-service checkout.
      *
      * @param card is an additional customer identifier
      */
