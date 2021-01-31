@@ -4,17 +4,18 @@ package com.example;
  * A customer is a person who visits a shop for buying goods.
  *
  * <p>The customer can have a loyalty card.
+ *
+ * <p>The customer uses the card during a purchase to use bonuses.
+ *
+ * <p>The absence of a card does not prevent the customer from purchasing the goods.
  */
 public final class Customer {
     /**
-     * In order to use previously collected bonuses, the customer uses the card during a purchase.
-     *
-     * <p>The absence of a card does not prevent the customer from purchasing the goods.
+     * Loyalty card is unique for each customer.
      */
     private final LoyaltyCard card;
 
     /**
-     * Loyalty card is assigned to a specific customer.
      *
      * <p>The card provides customer with bonuses that can be used to pay for purchases.
      *
