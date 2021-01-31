@@ -1,5 +1,7 @@
 package com.example;
 
+import com.sun.istack.internal.Nullable;
+
 /**
  * A customer is a person who visits a shop for buying goods.
  *
@@ -25,7 +27,7 @@ public final class Customer {
      *
      * @param card is an additional customer identifier
      */
-    public Customer(LoyaltyCard card) {
+    public Customer(@Nullable LoyaltyCard card) {
         this.card = checkNotNull(card);
     }
 }
