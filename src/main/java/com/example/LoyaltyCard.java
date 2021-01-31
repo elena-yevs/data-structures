@@ -13,11 +13,13 @@ public final class LoyaltyCard {
     private final String number;
 
     /**
-     * Constructor creates a new card with the passed number.
+     * Creating a new card with the passed number.
      *
-     * <p>Checking the card number.
+     * <p>Card number consists of a fixed number of characters.
      *
-     * @param number a unique card number, consisting of digital characters
+     * <p>Checking the card number for characters.
+     *
+     * @param number must differ by at least one character
      */
     public LoyaltyCard(CharSequence number) {
         this.number = checkNotNull(number);
