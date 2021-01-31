@@ -4,7 +4,7 @@ import static com.google.common.base.Preconditions;
 
 
 /**
- * Each customer has his own card that serves as an additional identifier.
+ * The card is unique to each customer.
  */
 public final class LoyaltyCard {
     /**
