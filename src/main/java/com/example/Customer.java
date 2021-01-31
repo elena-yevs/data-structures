@@ -18,8 +18,7 @@ public final class Customer {
     private final LoyaltyCard card;
 
     /**
-     *
-     * <p>The card provides customer with bonuses that can be used to pay for purchases.
+     * The card provides customer with bonuses that can be used to pay for purchases.
      *
      * <p>The customer's card number is unchanged.
      *
