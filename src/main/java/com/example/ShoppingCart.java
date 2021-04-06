@@ -7,7 +7,7 @@ public interface ShoppingCart {
 
     void put();
 
-    void putBack();
+    void putOut();
 
     void change();
 }

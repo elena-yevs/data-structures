@@ -15,4 +15,34 @@ abstract class ShoppingBasket implements ShoppingCart {
      */
     public Customer customer;
 
+    /**
+     * Before purchasing customer should choose a suitable for his purchases shopping basket.
+     */
+    public void choose() {
+    }
+
+    /**
+     * After choosing the basket it have to be taken.
+     */
+    public void take() {
+    }
+
+    /**
+     * The customer put his goods in the basket.
+     */
+    public void put() {
+    }
+
+    /**
+     * The goods can be put out of the shopping basket.
+     */
+    public void putOut() {
+    }
+
+    /**
+     * The basket can be changed to a more suitable one.
+     */
+    public void change() {
+    }
+
 }
