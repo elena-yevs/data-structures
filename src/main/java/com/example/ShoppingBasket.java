@@ -9,5 +9,10 @@ package com.example;
  *
  * <p>The customer can change his basket or take another one.
  */
-abstract class ShoppingBasket implements ShoppingCart{
+abstract class ShoppingBasket implements ShoppingCart {
+    /**
+     * The customer uses shopping basket.
+     */
+    public Customer customer;
+
 }
