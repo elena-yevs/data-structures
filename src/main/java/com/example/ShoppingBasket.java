@@ -16,6 +16,11 @@ abstract class ShoppingBasket implements ShoppingCart {
     public Customer customer;
 
     /**
+     *The shopping basket holds up to 15 items with a total weight of up to 5 kg.
+     */
+    String goodsInBasket[]=new String [15];
+
+    /**
      * Before purchasing customer should choose a suitable for his purchases shopping basket.
      */
     public void choose() {
