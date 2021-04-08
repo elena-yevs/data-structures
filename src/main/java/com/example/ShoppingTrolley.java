@@ -9,7 +9,7 @@ package com.example;
  *
  * <p>The customer can change his trolley or take another one.
  */
-abstract class ShoppingTrolley implements ShoppingCart{
+abstract class ShoppingTrolley implements ShoppingCart {
     /**
      * The customer uses shopping trolley.
      */
@@ -18,5 +18,5 @@ abstract class ShoppingTrolley implements ShoppingCart{
     /**
      * The shopping trolley holds up to 30 items with a total weight of up to 20 kg.
      */
-    Goods itemsInTrolley[]=new Goods [30];
+    Goods itemsInTrolley[] = new Goods[30];
 }
