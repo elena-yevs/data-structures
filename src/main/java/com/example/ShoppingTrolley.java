@@ -18,5 +18,5 @@ abstract class ShoppingTrolley implements ShoppingCart{
     /**
      * The shopping trolley holds up to 30 items with a total weight of up to 20 kg.
      */
-    String goodsInTrolley[]=new String [30];
+    Goods itemsInTrolley[]=new Goods [30];
 }
