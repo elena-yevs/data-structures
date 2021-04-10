@@ -4,7 +4,7 @@ import static com.google.common.base.Preconditions;
 
 
 /**
- * The card is unique to each customer.
+ * The card is unique to a network of shops.
  */
 public final class LoyaltyCard {
     /**
