@@ -8,5 +8,5 @@ public class Goods {
     /**
      * The selected item is put into the shopping basket or shopping trolley.
      */
-    String item;
+    private String item;
 }

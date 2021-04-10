@@ -13,7 +13,7 @@ abstract class ShoppingBasket implements ShoppingCart {
     /**
      * The customer uses shopping basket.
      */
-    public Customer customer;
+    private Customer customer;
 
     /**
      * The shopping basket holds up to 15 items with a total weight of up to 5 kg.

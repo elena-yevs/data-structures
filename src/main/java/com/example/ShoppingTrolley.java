@@ -13,7 +13,7 @@ abstract class ShoppingTrolley implements ShoppingCart {
     /**
      * The customer uses shopping trolley.
      */
-    public Customer customer;
+    private Customer customer;
 
     /**
      * The shopping trolley holds up to 30 items with a total weight of up to 20 kg.
