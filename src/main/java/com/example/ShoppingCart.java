@@ -1,13 +1,13 @@
 package com.example;
 
 public interface ShoppingCart {
-    void choose();
+    void chooseTheCart();
 
-    void take();
+    void takeTheCart();
 
-    void put();
+    void putGoodsIn();
 
-    void putOut();
+    void putOutGoods();
 
-    void change();
+    void changeTheCart();
 }
