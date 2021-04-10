@@ -3,7 +3,7 @@ package com.example;
 /**
  * A shopping basket is a thing in which customer puts goods in order to buy it.
  *
- * <p>The customer can choose a basket suitable for his purchases.
+ * <p>The customer can choose a basket for his purchases.
  *
  * <p>The absence of a shopping basket does not prevent the customer from purchasing the goods.
  *
@@ -21,32 +21,32 @@ abstract class ShoppingBasket  {
     Goods[] itemsInBasket = new Goods[15];
 
     /**
-     * Before purchasing customer should choose a suitable for his purchases shopping basket.
+     * Before purchasing customer should choose a shopping basket.
      */
-    public void choose() {
+    public void chooseShoppingBasket() {
     }
 
     /**
      * After choosing the basket it have to be taken.
      */
-    public void take() {
+    public void takeShoppingBasket() {
     }
 
     /**
      * The customer put his goods in the basket.
      */
-    public void put() {
+    public void putTheGoodsIn() {
     }
     /**
      * The goods can be put out of the shopping basket.
      */
-    public void putOut() {
+    public void putOutTheGoods() {
     }
 
     /**
-     * The basket can be changed to a more suitable one.
+     * The basket can be changed to another.
      */
-    public void change() {
+    public void changeShoppingBasket() {
     }
 
 }
