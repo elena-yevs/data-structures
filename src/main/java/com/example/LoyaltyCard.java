@@ -8,7 +8,7 @@ import static com.google.common.base.Preconditions;
  */
 public final class LoyaltyCard {
     /**
-     * Number is the card's id.
+     * Number is a card identifier.
      */
     private final String number;
 
