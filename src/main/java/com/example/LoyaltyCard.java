@@ -13,11 +13,11 @@ public final class LoyaltyCard {
     private final String number;
 
     /**
-     * Creating a new card with the passed number.
+     * Creates a new card with the passed number.
      *
      * <p>Card number consists of a fixed number of characters.
      *
-     * <p>Checking the card number for characters.
+     * <p>Checks the card number for characters.
      *
      * @param number must differ by at least one character
      */
