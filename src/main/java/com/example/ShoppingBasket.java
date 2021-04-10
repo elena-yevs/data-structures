@@ -9,7 +9,7 @@ package com.example;
  *
  * <p>The customer can change his basket or take another one.
  */
-abstract class ShoppingBasket implements ShoppingCart {
+abstract class ShoppingBasket  {
     /**
      * The customer uses shopping basket.
      */
@@ -37,7 +37,6 @@ abstract class ShoppingBasket implements ShoppingCart {
      */
     public void put() {
     }
-
     /**
      * The goods can be put out of the shopping basket.
      */
