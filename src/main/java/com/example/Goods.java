@@ -6,7 +6,7 @@ package com.example;
 public class Goods {
 
     /**
-     * The selected item is put into the shopping basket or shopping trolley.
+     * The selected item of goods is put into the shopping basket or shopping trolley.
      */
     private String item;
 }
