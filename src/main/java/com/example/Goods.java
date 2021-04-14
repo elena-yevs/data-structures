@@ -1,12 +1,11 @@
 package com.example;
 
 /**
- * A goods item is what the customer comes to the shop for.
+ * The shop receipt is formed on the basis of goods.
  */
 public class Goods {
-
     /**
-     * The selected item of goods is put into the shopping basket or shopping trolley.
+     * Goods is a set of product units.
      */
-    private String item;
+    private final Goods productUnits[]=new Goods[50];
 }
