@@ -9,7 +9,7 @@ package com.example;
  *
  * <p>The customer can change his trolley or take another one.
  */
-abstract class ShoppingTrolley implements ShoppingCart {
+abstract class ShoppingTrolley implements Cart {
     /**
      * The customer uses shopping trolley.
      */

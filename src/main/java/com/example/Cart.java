@@ -1,6 +1,6 @@
 package com.example;
 
-public interface ShoppingCart {
+public interface Cart {
     void chooseTheCart();
 
     void takeTheCart();
