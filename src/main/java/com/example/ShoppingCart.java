@@ -9,7 +9,7 @@ package com.example;
  *
  * <p>The customer can change his basket or take another one.
  */
-abstract class ShoppingBasket  {
+abstract class ShoppingCart {
     /**
      * The customer uses shopping basket.
      */
