@@ -10,10 +10,6 @@ package com.example;
  * <p>The customer can change his basket or take another one.
  */
 abstract class ShoppingCart {
-    /**
-     * The customer uses shopping basket.
-     */
-    private Customer customer;
 
     /**
      * The shopping basket holds up to 15 items with a total weight of up to 5 kg.
