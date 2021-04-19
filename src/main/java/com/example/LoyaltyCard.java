@@ -19,7 +19,7 @@ public final class LoyaltyCard {
      *
      * <p>Checks the card number for characters.
      *
-     * @param number must differ by at least one character
+     * @param number must differ by at least one character.
      */
     public LoyaltyCard(CharSequence number) {
         this.number = checkNotNull(number);
@@ -27,9 +27,9 @@ public final class LoyaltyCard {
     }
 
     /**
-     * Getting the card number.
+     * Gets the card number.
      *
-     * @return unique card number
+     * @return card number that can`t be empty.
      */
     public String number() {
         return number;
