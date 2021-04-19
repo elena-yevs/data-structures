@@ -26,7 +26,7 @@ public final class Customer {
      *
      * <p>The customer can scan the card number himself at the self-service checkout.
      *
-     * @param card is an additional customer identifier
+     * @param card is an additional customer identifier.
      */
     public Customer(@Nullable LoyaltyCard card) {
         this.card = checkNotNull(card);
