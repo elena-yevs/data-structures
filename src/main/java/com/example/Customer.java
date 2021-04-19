@@ -29,6 +29,6 @@ public final class Customer {
      * @param card is an additional customer identifier.
      */
     public Customer(@Nullable LoyaltyCard card) {
-        this.card = checkNotNull(card);
+        this.card = card;
     }
 }
