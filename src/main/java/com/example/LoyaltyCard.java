@@ -29,6 +29,8 @@ public final class LoyaltyCard {
     /**
      * Gets the card number.
      *
+     * <p>The number consists of decimal digits.
+     *
      * @return card number that must differ by at least one character.
      */
     public String number() {
