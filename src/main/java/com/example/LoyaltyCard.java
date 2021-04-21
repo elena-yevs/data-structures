@@ -33,7 +33,7 @@ public final class LoyaltyCard {
      *
      * @return card number that must differ by at least one character.
      */
-    public String number() {
+    private String number() {
         return number;
     }
 }
