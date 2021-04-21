@@ -4,22 +4,22 @@ import static com.google.common.base.Preconditions;
 
 
 /**
- * The card is unique to each customer.
+ * The card is unique to a network of shops.
  */
 public final class LoyaltyCard {
     /**
-     * Number is the card's id.
+     * Number is a card identifier.
      */
     private final String number;
 
     /**
-     * Creating a new card with the passed number.
+     * Creates a new card with the passed number.
      *
      * <p>Card number consists of a fixed number of characters.
      *
-     * <p>Checking the card number for characters.
+     * <p>Checks the card number for characters.
      *
-     * @param number must differ by at least one character
+     * @param number can`t be empty.
      */
     public LoyaltyCard(CharSequence number) {
         this.number = checkNotNull(number);
@@ -27,11 +27,13 @@ public final class LoyaltyCard {
     }
 
     /**
-     * Getting the card number.
+     * Gets the card number.
      *
-     * @return unique card number
+     * <p>The number consists of decimal digits.
+     *
+     * @return card number that must differ by at least one character.
      */
-    public String number() {
+    private String number() {
         return number;
     }
 }
